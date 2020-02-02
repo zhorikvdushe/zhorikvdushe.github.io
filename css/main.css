@@ -1,0 +1,17 @@
+body{
+    background: rgb(63,251,192);
+    background: radial-gradient(circle, rgba(63,251,192,0.639093137254902) 0%, rgba(195,198,85,1) 50%, rgba(252,70,107,1) 100%);}
+    h1{
+      color: black;
+      -webkit-text-stroke: 0.5px rgba(0,0,0,0.5);
+      ;
+    }
+    .batteryred {color: red;}
+    .batteryredyellow {color: orange;}
+    .batteryyellow {color: rgb(204, 204, 0);}
+    .batteryyelowgreen {color: yellowgreen;}
+    .battrrygreen {color: green;}
+    .battrrypoln {color: grey;}
+    .mi_block0 {color: rgb(90, 0, 131);}
+    .mi_block1 { color: rgb(10, 103, 180)}
+    .mi_block2 { color: rgb(76, 63, 251)}
