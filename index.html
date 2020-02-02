@@ -1,265 +1,121 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<html lang="ru-RU">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Ошибка</title>
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- подключаем иконочный шрифт -->
-    <script src="https://kit.fontawesome.com/4238797e34.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
+<style>
+html,body {	height:100%;min-height: 100%}
+body {
+	margin:0;
+	padding:0;
+	font: 15px Tahoma;
+	color:#555;
+    }
+#top{
+	width:100%;
+	background: #222;
+	text-align:center;
+	height:35px;
+	line-height:35px;
+	}
+#top a{color:#00FF00;text-decoration:none;}
+.logo{
+	width:200px;
+	font: 22px/125% Tahoma;
+	float:left;
+	line-height:35px;
+	}
+.logo span{font: 12px/125% Tahoma;}
+ 
+ #cat{margin:15% auto 0;} 
+ 
 
-    <title>Стартовая страница // Webmaster</title>
-  </head>
-  <body>
-    <div class="container"> 
-      <h1
-        class="h3 text-center m-5 p-3 font-weight-bold text-primary .bg-transparent rounded"
-      >
-       <i class="fab fa-app-store-ios"></i>
-        Курс Webmaster
-        <i class="fab fa-app-store-ios"></i>
-      </h1>
-      <div class="row d-flex justify-content-center">
-        <div class="batteryred card col-md-3 text-center m-3 shadow"> <!--  lab3 -->
-          <i class="fas fa-battery-empty fa-6x"></i>
+#cat:before{
+ content:'';
+ width: 587px;
+	background: url(nofound.png) center top no-repeat;
+	height:410px;
+	position: absolute;
+	left:50%;
+	margin-left:-293px;
+}
+ #cat{
+	position: relative;
+	width: 100%;
+} 
+.cat-eye {
+	position: absolute;
+	display: none;
+	width: 60px;
+	height: 61px;
+}
+.cat-eyeball {
+	position: absolute;
+	left: 22.5px;
+	top: 24.5px;
+	width: 16px;
+	height: 16px;
+	background: url(eyes.png);
+}
+#cat-eye-left {
+	top: 82px;
+	left: 50%;
+	margin-left:-75px;
+}
+#cat-eye-right {
+	top: 82px;
+	left: 50%;
+	margin-left:-5px;
+}
+ 
+</style>
 
-          <div class="card-body">
-            <h5 class="card-title">Работа №3</h5>
-            <p class="card-text">
-              Моя третья работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab3/" target="_blanlk" class="btn btn-outline-primary  stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow"> <!--  lab4 -->
-          <i class="batteryred fas fa-battery-empty fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №4</h5>
-            <p class="card-text">
-              Моя четвёртая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab4/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow"> <!--  lab5 -->
-          <i class="batteryredyellow fas fa-battery-quarter fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №5</h5>
-            <p class="card-text">
-              Моя пятая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab5/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow"> <!--  lab6 -->
-          <i class="batteryredyellow fas fa-battery-quarter fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №6</h5>
-            <p class="card-text">
-              Моя шестая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab6/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow"> <!-- lab7 -->
-          <i class="batteryyellow fas fa-battery-half fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №7</h5>
-            <p class="card-text">
-              Моя седьмая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab7/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow"> <!-- lab8 -->
-          <i class="batteryyelowgreen  fas fa-battery-three-quarters fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №8</h5>
-            <p class="card-text">
-              Моя восьмая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab8/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- lab9 -->
-          <i class="batteryyelowgreen fas fa-battery-three-quarters fa-5x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №9</h5>
-            <p class="card-text">
-              Моя девятая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab9/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- lab10 -->
-          <i class="battrrygreen fas fa-battery-full fa-5x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №10</h5>
-            <p class="card-text">
-              Моя десятая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab10/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- lab11 -->
-          <i class="battrrypoln fas fa-car-battery fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Работа №11</h5>
-            <p class="card-text">
-              Моя одинадцатая работа по курсу Webmaster.
-            </p>
-            <a href="https://zhdunchik.github.io/lab11/" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- css1 -->
-          <i class="mi_block0 fas fa-drafting-compass mt-3 fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Изучаем фон 1</h5>
-            <p class="card-text">
-              Изучаем фон с помощью css. Урок 1.
-            </p>
-            <a href="https://zhdunchik.github.io/bg" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- css2 -->
-          <i class="mi_block1 fas fa-drafting-compass  mt-3 fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Изучаем фон 2</h5>
-            <p class="card-text">
-              Изучаем фон с помощью css. Урок 2.
-            </p>
-            <a href="https://zhdunchik.github.io/bg2" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- css3 -->
-          <i class="mi_block2 fas fa-drafting-compass mt-3 fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Изучаем фон 3</h5>
-            <p class="card-text">
-              Изучаем фон с помощью css. Урок 3.
-            </p>
-            <a href="https://zhdunchik.github.io/bg3" target="_blanlk" class="btn btn-outline-primary stretched-link btn-sm btn-block">Посмотреть работу</a>
-          </div>
-        </div>
-        <div class="card col-md-3 text-center m-3 shadow">  <!-- mySyte -->
-          <i class="batteryyelowgreen fab fa-android fa-6x"></i>
-          <div class="card-body">
-            <h5 class="card-title">Личный сайт</h5>
-            <p class="card-text">
-              Мой личный сайт в интернете.
-            </p>
-            <a class="btn btn-outline-primary stretched-link btn-sm btn-block disabled">Идёт разработка</a>
-          </div>
-        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-      </div> 
-      <!-- end row -->
-      <!-- start modal windows -->
-      <!-- Button trigger modal -->
-<div class="row">
-  <button type="button" class="btn btn-primary offset-3 col-6 " data-toggle="modal" data-target="#exampleModalCenter"> <span class="h3">Читай меня</span> </button>
-  
-</button></div>
-      
+</head>
+<body>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Смотрите видео </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 " >
-        <iframe  data-backdrop="keyboard boolean	true" class="embed-responsive-item" src="https://www.youtube.com/embed/EJbRswu4KgM" autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Закрыть</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end modal windows -->
-<!-- start carousel -------------------------------------------------------------------------------------------------------------------------------- -->
-<div id="carouselExampleIndicators" class="carousel slide mt-5 " data-ride="carousel">
-  <ol class="carousel-indicators text-primary ">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="text-primary active "></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item" data-interval="2000" >
-      <img src="img/1.jpg" class="d-block  w-100" alt="...">
-    </div>
-    <div class="carousel-item active" >
-      <img src="img/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/3.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/4.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/5.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="fas fa-balance-scale-left text-primary fa-4x" aria-hidden="true"></span>
-    <span class="sr-only">Предыдущая</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="fas fa-balance-scale-right text-primary fa-4x" aria-hidden="true"></span>
-    <span class="sr-only">Следующая</span>
-  </a>
-</div>
-<!-- end carousel ---------------------------------------------------------------------------------------------------------------------------------- -->
 
-      <footer>
-        <p
-        class="h3 text-center m-5 p-3 font-weight-bold text-primary .bg-transparent rounded"
-      >
-      <a href="https://vk.com/id170527095" target="_blanlk" class="btn btn-primary"><i class="fab fa-vk fa-2x"></i></a>
-      <a href="https://instagram.com/zhorikvdushe" target="_blanlk" class="btn btn-primary"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="https://facebook.com/profile.php?id=100042292341922" target="_blanlk" class="btn btn-primary"><i class="fab fa-facebook-messenger fa-2x"></i></a>
-      <a href="https://t.me/zhorikvdushe" target="_blanlk" class="btn btn-primary"><i class="fab fa-telegram fa-2x"></i></a>
-      <a href="https://t.me/zhorikkanal" target="_blanlk" class="btn btn-primary"><i class="fab fa-telegram-plane fa-2x"></i></i></a>
-      <a href="https://itstepgomel.github.io/#ma_22818" target="_blanlk" class="btn btn-primary"><i class="far fa-address-card fa-2x"></i></i></a>
-      </p>
-      </footer>
-    </div> <!-- end container  --> 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+			<div id="cat">
+					<div id="cat-eye-left" class="cat-eye">
+		 				<div class="cat-eyeball"></div>
+		 			</div>
+		 			<div id="cat-eye-right" class="cat-eye">
+		 				<div class="cat-eyeball"></div>
+		 			</div>
+		 		</div>
+
+
+
+
+<script type="text/javascript">
+		var el1 = $('#cat-eye-left'), eyeBall1 = el1.find('div');
+		var el2 = $('#cat-eye-right'), eyeBall2 = el2.find('div');
+		el1.show();
+		el2.show();
+		var x1 = el1.offset().left + 37, y1 = el1.offset().top + 25;
+		var r = 10, x , y, x2, y2, isEyeProcessed = false;
+		$('html').mousemove(function(e) {
+			if (!isEyeProcessed) {
+		 		isEyeProcessed = true;
+		 		var x2 = e.pageX, y2 = e.pageY;
+		 		y = ((r * (y2 - y1)) / Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1))) + y1;
+				x = (((y - y1) * (x2 - x1)) / (y2 - y1)) + x1;
+		 		eyeBall1.css({
+		 			marginTop: (y - y1 + 1) + 'px',
+		 			marginLeft: (x - x1) + 'px'
+		 		});
+		 		eyeBall2.css({
+		 			marginTop: (y - y1 + 1) + 'px',
+		 			marginLeft: (x - x1) + 'px'
+		 		});
+		 		isEyeProcessed = false;
+		 	}
+		});
+	</script>
+</body>
 </html>
